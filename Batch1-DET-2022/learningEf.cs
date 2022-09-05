@@ -23,6 +23,8 @@ namespace Batch1_DET_2022
             //Console.WriteLine("hello world");
             //Console.ReadLine();
             Console.WriteLine("hello world");
+                        Console.WriteLine("hello world");
+
 
         }
 

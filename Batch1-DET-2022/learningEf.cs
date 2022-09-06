@@ -17,14 +17,14 @@ namespace Batch1_DET_2022
             //AddNewEmployee();
             // DeleteNewEmployee();
             //UpdateEmpDetails();
-              EmployeeById();
+             // EmployeeById();
             //CallStoredProcwithSQLParamater_insert();
 
             //Console.WriteLine("hello world");
             //Console.ReadLine();
-            Console.WriteLine("hello world");
-                        Console.WriteLine("hello world");
-
+        //    Console.WriteLine("hello world");
+                 //       Console.WriteLine("hello world");
+//
 
         }
 
@@ -166,16 +166,16 @@ namespace Batch1_DET_2022
 
 
 
-        private static void EmployeeById()
-        {
-            var ctx = new trainingTSQLContext();
-            var Employees = ctx.Emps.FromSqlRaw("EXECUTE getEmployeeDtls @p0", 7499).ToList();
+        //private static void EmployeeById()
+        //{
+        //    var ctx = new trainingTSQLContext();
+        //    var Employees = ctx.Emps.FromSqlRaw("EXECUTE getEmployeeDtls @p0", 7499).ToList();
 
-            foreach (var em in Employees)
-            {
-                Console.WriteLine(em.Ename);
-            }
-        }
+        //    foreach (var em in Employees)
+        //    {
+        //        Console.WriteLine(em.Ename);
+        //    }
+        //}
 
 
         //        private static void CallStoredProcwithSQLParamater_insert()
